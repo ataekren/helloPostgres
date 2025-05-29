@@ -23,13 +23,13 @@ jobs:
        password: ${{ secrets.REGISTRY_PASSWORD }}
  
     - run: |
-       docker build . -t acrhellofinal.azurecr.io/helloFinal:${{ github.sha }}
-       docker push acrhellofinal.azurecr.io/helloFinal:${{ github.sha }}
+       docker build . -t acrhellofinal.azurecr.io/hellofinal:${{ github.sha }}
+       docker push acrhellofinal.azurecr.io/hellofinal:${{ github.sha }}
  
     - name: 'Deploy from ACR to App Service'
       uses: azure/webapps-deploy@v2
       with:
        app-name: 'as-hello-final-10651055'
-       images: 'acrhellofinal.azurecr.io/helloFinal:${{ github.sha }}'
+       images: 'acrhellofinal.azurecr.io/hellofinal:${{ github.sha }}'
     - run: |
        az logout
