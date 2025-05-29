@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\traxy\\Desktop\\se4453-final\\HelloPostgres\\HelloPostgres\\HelloPostgres.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\traxy\\Desktop\\se4453-final\\HelloPostgres\\HelloPostgres\\HelloPostgres.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\traxy\\Desktop\\se4453-final\\HelloPostgres\\HelloPostgres\\HelloPostgres.csproj",
+        "projectName": "HelloPostgres",
+        "projectPath": "C:\\Users\\traxy\\Desktop\\se4453-final\\HelloPostgres\\HelloPostgres\\HelloPostgres.csproj",
+        "packagesPath": "C:\\Users\\traxy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\traxy\\Desktop\\se4453-final\\HelloPostgres\\HelloPostgres\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Ata\\setup\\VS\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\traxy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.13.2, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureKeyVault": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

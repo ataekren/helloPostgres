@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "KJuEOLD7/FFbWGHDdv9hmoH3WY6LbS6L3A9baXqq//M=",
+  "Source": "HelloPostgres",
+  "BasePath": "_content/HelloPostgres",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
