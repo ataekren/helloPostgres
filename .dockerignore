@@ -1,0 +1,53 @@
+# Ignore Git files
+.git
+.gitignore
+.gitattributes
+
+# Ignore documentation
+README.md
+*.md
+
+# Ignore build outputs
+**/bin/
+**/obj/
+**/out/
+
+# Ignore IDE and editor files
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore package files
+*.nupkg
+*.snupkg
+
+# Ignore test results
+TestResults/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Node.js dependencies (if any)
+node_modules/
+npm-debug.log*
+
+# Ignore Docker files themselves
+Dockerfile*
+docker-compose* 
