@@ -42,7 +42,7 @@ public class HelloController : ControllerBase
             connection.Open();
             connection.Close();
 
-            return Ok("Successful");
+            return Ok("Successful configuration with KV and ACR!");
         }
         catch (Exception ex)
         {
