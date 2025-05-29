@@ -21,7 +21,12 @@ public class HelloController : ControllerBase
     {
         try
         {
-            var keyVaultUri = _configuration["KeyVault:VaultUri"];
+            var keyVaultUri = Environment.GetEnvironmentVariable("KEYVAULT_URI");
+
+            if (string.IsNullOrEmpty(keyVaultUri))
+            {
+                return StatusCode(500, "Key Vault URI not found. Please set KEYVAULT_URI environment variable.");
+            }
 
             Console.WriteLine($"Key Vault URI: {keyVaultUri}");
 
