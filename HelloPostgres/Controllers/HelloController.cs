@@ -42,7 +42,7 @@ public class HelloController : ControllerBase
             connection.Open();
             connection.Close();
 
-            return Ok("Successful configuration with KV and ACR!");
+            return Ok("Successfully connected to Postgres!");
         }
         catch (Exception ex)
         {
